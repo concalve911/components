@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+.character-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
